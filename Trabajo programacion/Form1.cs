@@ -64,6 +64,7 @@ namespace Trabajo_programacion
 
                 lblIlum.Text = Calculos.Iluminancia(txtPotencia.Text, txtLumenes.Text, txtMant.Text, txtUtiliz.Text, txtLargo.Text, txtAncho.Text);
 
+                
                 string[] pepe = Calculos.LampFinales(txtAncho.Text, txtLargo.Text, lblLumOblg.Text, txtPotencia.Text);
                 lblLampAncho.Text = pepe[0];
                 lblLampLargo.Text = pepe[1];
